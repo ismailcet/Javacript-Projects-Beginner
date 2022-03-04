@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>İsmail ToDo App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header">
+                <h1 class="header-title">
+                    ToDo App
+                </h1>
+            </header>
+            <section class="new-item">
+                <h3 class="item-title">
+                    New Task
+                    <hr class="border">
+                </h3>
+                <div class="item-task">
+                    <form class="item-input">
+                        <div class="item-body">
+                            <input type="text" id="input-item" class="input-item" placeholder="Type a new task">
+                            <button class="btn" type="submit" id="btnAddNewTask">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="item-list">
+                <h3 class="item-title">
+                    Task List
+                    <hr>
+                </h3>
+                <a href="#" class="btn-delete" id="deleteAll">
+                    Delete All
+                </a>
+                <div class="task-content">
+                    <ul id="task-list" class="list-group">
+
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
