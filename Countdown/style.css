@@ -178,3 +178,13 @@ main {
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
 }
+.icon {
+  display: grid;
+  place-items: center;
+  margin-top: 3rem;
+}
+.icon i {
+  color: #1a6aa2;
+  font-size: 5rem;
+  font-weight: 0 !important;
+}
