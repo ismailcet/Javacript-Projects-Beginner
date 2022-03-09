@@ -185,7 +185,7 @@ main {
   color: #721c24;
   background: #f8d7da;
 }
-.alert-succes {
+.alert-success {
   color: #155724;
   background: #d4edda;
 }
@@ -301,6 +301,7 @@ main {
   color: var(--clr-red-light);
   margin-top: 1.25rem;
   transition: var(--transition);
+  display: none;
 }
 .clear-btn:hover {
   color: var(--clr-red-dark);
